@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Overpass:wght@300&family=Rubik&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+:root {
+    --light-black:#2e2c2caf;
+    --bggradient: linear-gradient(to bottom,#a64dff,#2929a3);
+    --light-gray: rgba(255,255,255,0.8); 
+}
+
+header a {
+    font-family: "'Overpass', sans-serif";
+    font-size: 1.2em;
+    color: rgb(245, 242, 237);
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color:black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: 'Rubik', sans-serif;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    height: 100%;
+    width: 100%;
+}
+
+header .container .col-md-7 h2{
+    font-size: 6.5vmin;
+    font-weight: 550;
+    padding: 0.1em 0em;
+    letter-spacing: 1.5px;
+    color: rgb(236, 223, 223);
+}
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* -------- MIDDLE ---------- */
+
+.middle > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  color: #2929a3;
+}
+
+.middle > p {
+  color: #2929a3;
+  font-size: 3vmin;
+  padding-bottom: 15vmin;
+}
+
+.middle .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.bottom img {
+    /* height: 20%; */
+    width: 65%;
+    padding-bottom: 2.6em;
+}
+
+#img1 {
+    padding-bottom: 4em;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(228, 198, 248, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 4.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .bottom {
+  background: rgba(149, 19, 236, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .bottom > h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
+
+
+
+/* -------- FOOTER --------- */
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff2a00;
+}
+
+footer .column a {
+  color: #a64dff;
+  padding: 0.3em;
+}
+
+/* ----- RESPONSIVE ----- */
+@media only screen and (max-width: 760px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
